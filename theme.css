@@ -1,0 +1,121 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+    margin: 0;
+/* Rishav.css */
+}
+.container{
+    width:90%;
+    margin:auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color:coral;
+    color:#fff;
+    background-image:Url(abc123.jpg);
+    
+}
+
+#navbar{
+    background-color: rgb(2, 8, 24);
+    color:#fff;
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    padding-right:15px;
+    margin:2px;
+}
+#showcase{
+    background-color: #49665d;
+    background-position: center left;
+    height:200px;
+    color:black;
+    text-align:left;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+#showcase img{
+    padding-top:5px;
+    
+    margin-right:170%;
+    
+      
+}
+a:hover {
+    color: hotpink;
+  }
+  
+#main{
+    float:left;
+    width:70%;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.column{
+    padding:5px;
+    width:17.4%;
+    float:left;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display:inline;
+  }
+
+
+
+#sidebar{ 
+    float:right;
+    width:30%;
+    background-color: #333;
+    color:#fff;
+    padding:50px;
+    box-sizing:border-box;
+}
+#sidebar h4{
+    text-align:right ;
+    color:#1a0303;
+}
+#main-footer{
+    background-color: #333;
+    color:#fff;
+    padding:10px;
+    text-align: center;
+    margin-top:50px;
+}
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;   
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+        
+    }
+    #showcase h1{
+        width:100%;
+        padding-left: 220px;
+    }
+    #showcase p{
+        width:40%;
+        padding-left: 208px;
+        
+    }
+    #showcase{
+        width:100%;
+        padding-bottom: 80px;
+    }
+}
